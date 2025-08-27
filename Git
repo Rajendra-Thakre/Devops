@@ -1,0 +1,111 @@
+Certainly! Here's a list of commonly used Git commands along with their typical usage examples:
+
+
+### Frequently Used Git Commands with Examples
+
+**1. Initialize a new repo**  
+```bash
+git init
+```
+
+**2. Clone an existing repo**  
+```bash
+git clone https://github.com/user/repository.git
+```
+
+**3. Check current status**  
+```bash
+git status
+```
+
+**4. Add files to staging area**  
+```bash
+git add filename.txt
+# Or add all changes
+git add .
+```
+
+**5. Commit changes**  
+```bash
+git commit -m "Describe your changes"
+```
+
+**6. Push commits to remote**  
+```bash
+git push origin main
+```
+
+**7. Fetch latest changes from remote**  
+```bash
+git fetch
+```
+
+**8. Pull latest changes and merge**  
+```bash
+git pull origin main
+```
+
+**9. Create a new branch**  
+```bash
+git branch new-feature
+```
+
+**10. Switch to a branch**  
+```bash
+git checkout new-feature
+```
+
+**11. Merge a branch into current branch**  
+```bash
+git merge new-feature
+```
+
+**12. View commit history**  
+```bash
+git log
+```
+
+**13. Show differences between working directory and last commit**  
+```bash
+git diff
+```
+
+**14. Show differences staged for commit**  
+```bash
+git diff --cached
+```
+
+**15. Revert a commit**  
+```bash
+git revert commit_hash
+```
+
+**16. Reset to a previous commit**  
+```bash
+git reset --hard commit_hash
+```
+
+**17. Save current changes temporarily**  
+```bash
+git stash
+```
+
+**18. Apply stashed changes**  
+```bash
+git stash pop
+```
+
+**19. Create a tag**  
+```bash
+git tag v1.0
+```
+
+**20. Push tags to remote**  
+```bash
+git push origin --tags
+```
+
+---
+
+### Summary:
+These are some of the most used commands in everyday Git workflows. If you want commands for specific tasks (like rebasing, cherry-picking, managing remotes, etc.), just ask!
