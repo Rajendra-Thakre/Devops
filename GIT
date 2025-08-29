@@ -1,0 +1,54 @@
+Git- Version centrol System its a tools thats help to track changes in a code. 
+Popular, Free and Opensource and its Fast and Scalable.
+1- track the mistake
+2- Collabration
+Github- Website thats allow developer to store and manage their code sing Git
+
+
+
+
+
+
+
+Day 2 Git Flow – Command Paths
+Step 1 – Initialize repository
+cd ~/Desktop/Devops/GIT       # Navigate to your project folder
+git init                      # Initialize Git repo
+git branch -M main            # Rename default branch to main
+
+Step 2 – Check status (optional but recommended)
+git status                    # See untracked or staged files
+
+Step 3 – Create files
+echo "This is my first file" > readme.txt
+echo "This is my second file" > readme2.txt
+
+Step 4 – Stage files
+git add readme.txt             # Stage readme.txt
+git add readme2.txt            # Stage readme2.txt
+# OR stage all changes at once:
+git add .
+
+Step 5 – Commit changes
+git commit -m "Added readme files"   # Save staged files to history
+
+
+Tip: The text after -m is just a message describing your commit.
+
+Step 6 – Check commit history
+git log --graph --oneline --all    # See commits in a tree-like structure
+git show HEAD                      # Optional: see what changed in the last commit
+
+Step 7 – Check project structure
+tree -L 2                          # Visualize folder & file layout
+
+Step 8 – Branching (optional enhancement)
+git branch dev                     # Create a new branch for experiments
+git checkout dev                   # Switch to dev branch
+
+Step 9 – Undo mistakes (optional enhancement)
+git reset HEAD <file>              # Unstage a file if added by mistake
+git revert <commit-id>             # Undo a commit safely
+
+
+✅ This is your Day 2 flow in proper order with optional commands added.
